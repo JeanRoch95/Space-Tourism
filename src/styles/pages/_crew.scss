@@ -1,0 +1,26 @@
+.crew {
+  background: url(../../assets/crew/background-crew-desktop.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+
+  div {
+    h1:nth-child(1) {
+      color: white;
+      position: absolute;
+      left: 12.5%;
+      top: 23%;
+      font-family: sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 25px;
+      letter-spacing: 3.5px;
+
+      span {
+        font-weight: 300;
+        color: grey;
+      }
+    }
+  }
+}

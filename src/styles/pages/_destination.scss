@@ -1,0 +1,23 @@
+.destination {
+  background: url(../../assets/destination/background-destination-desktop.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+
+  .pick {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    font-family: $font-1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 28px;
+  }
+  span {
+    color: grey;
+    opacity: 0.4;
+    letter-spacing: 8px;
+  }
+}

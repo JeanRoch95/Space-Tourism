@@ -1,0 +1,66 @@
+.composent-technology {
+  .techno {
+    color: $color-2;
+    left: 20%;
+    position: absolute;
+    top: 40%;
+
+    p:nth-child(1) {
+      font-size: 13.5px;
+      letter-spacing: 3px;
+      font-family: sans-serif;
+      text-transform: uppercase;
+    }
+    h1 {
+      padding: 20px 0;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 55px;
+      color: white;
+    }
+    .description {
+      width: 440px;
+      line-height: 27px;
+      word-spacing: 2px;
+      font-size: 17px;
+      font-weight: 300;
+      font-family: sans-serif;
+    }
+    img {
+      display: block;
+      position: absolute;
+      left: 642px;
+      top: -40%;
+      height: 485px;
+      width: 470px;
+    }
+  }
+  .techno-navigation {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 10%;
+
+    li {
+      margin-bottom: 30px;
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      border: 1px solid grey;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
+    .active-techno {
+      background: white;
+      color: black;
+    }
+  }
+}

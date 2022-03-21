@@ -1,0 +1,34 @@
+.home {
+  background: url(../../assets/home/background-home-desktop.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+
+  .txt-home {
+    width: 550px;
+    height: auto;
+    margin-top: 250px;
+    margin-left: 100px;
+    font-family: $font-1;
+
+    p:nth-child(1) {
+      font-size: 28px;
+      text-transform: uppercase;
+      letter-spacing: 4.75px;
+      color: $color-2;
+    }
+    p:nth-child(2) {
+      color: $color-3;
+      font-size: 150px;
+      padding: 40px 0;
+      text-transform: uppercase;
+      font-family: sans-serif;
+    }
+    p:nth-child(3) {
+      font-family: sans-serif;
+      color: $color-2;
+      line-height: 35px;
+      width: 400px;
+    }
+  }
+}

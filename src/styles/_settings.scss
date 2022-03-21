@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
+$font-1: "Bellefair", serif;
+$font-2: "Barlow Condensed", sans-serif;
+
+$color-1: #0b0d17;
+$color-2: rgb(209, 214, 249);
+$color-3: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
